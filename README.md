@@ -1,3 +1,34 @@
+# Trabajo Fin de Grado - Grado en Ingeniería Informática
+
+**Título del trabajo**: VSCode4Teaching: implementación de interfaz web para el ecosistema para la docencia de la programación en línea.  
+**Autor**: Diego Guerrero Carrasco ([correo electrónico](mailto:diegogcarrasco@icloud.com), [perfil en GitHub](https://github.com/diego-guerrero), [perfil en LinkedIn](https://www.linkedin.com/in/diego-guerrero-carrasco/)).  
+**Titulación**: Grado en Ingeniería Informática (dentro del Doble grado en Ingeniería Informática e Ingeniería del *Software*), Escuela Técnica Superior de Ingeniería Informática, Universidad Rey Juan Carlos (Madrid, España).  
+**Defendido** el martes 16 de julio de 2024 en el Campus de Móstoles de la Universidad Rey Juan Carlos.
+
+El presente repositorio contiene el código fuente del proyecto VSCode4Teaching desde su origen hasta la finalización del Trabajo Fin de Grado correspondiente al Grado en Ingeniería Informática. El máximo punto de actualización se ubica en la rama [`develop`](https://github.com/diego-guerrero/TFG-GII-VSCode4Teaching/tree/develop), situada en la última versión de VSCode4Teaching disponible antes de finalizar el Trabajo Fin de Grado.
+
+
+## Resumen
+Desde su origen, [*VSCode4Teaching*](https://github.com/codeurjc-students/2019-VSCode4Teaching) ha venido siendo una extensión web para Visual Studio Code, un entorno de desarrollo integrado, que tiene como objetivo facilitar y potenciar la docencia de la programación informática para mejorar la educación en competencias digitales y en el ámbito de la informática, área en pleno crecimiento y promulgación a nivel global.
+
+Para ello, *VSCode4Teaching* permite a los profesores crear y gestionar cursos con ejercicios de programación que se basan en una plantilla inicial propuesta por ellos y, opcionalmente, una propuesta de solución al ejercicio. Los alumnos inscritos en los cursos completarán los ejercicios descargándose la plantilla y realizando sobre ella su propuesta propia de resolución, sincronizándola con el servidor para guardarla e informar en tiempo real a sus profesores de los avances realizados hasta finalizarla.
+
+La memoria de este Trabajo Fin de Grado describe en profundidad el ciclo de desarrollo relativo al cuarto hito evolutivo del proyecto *VSCode4Teaching*, en el que se implementa una aplicación web de navegador que incorpora los procesos de negocio que los usuarios ejecutaban en la extensión de Visual Studio Code, eliminando la obligatoriedad de uso de este entorno para alcanzar a un público objetivo mayor.
+
+El *software* del proyecto se organiza en una arquitectura cliente-servidor. El servidor, encargado del suministro, persistencia e interpretación de los datos, intercambia información con dos clientes: la extensión para Visual Studio Code y la aplicación web de navegador, que disponen en consecuencia las interfaces gráficas necesarias para la interacción con la aplicación.
+
+El proyecto *VSCode4Teaching* es *software* libre divulgado bajo licencia Apache 2.0 a través de un [repositorio público en GitHub](https://github.com/codeurjc-students/2019-VSCode4Teaching) que contiene, además, documentación sobre el proyecto para favorecer la libre ejecución, utilización y adaptación del proyecto a toda la comunidad de desarrolladores.
+
+
+## Recursos asociados
+- Memoria de la evolución realizada sobre el proyecto VSCode4Teaching en este Trabajo Fin de Grado: [https://github.com/diego-guerrero/TFG-GII-Memoria](https://github.com/diego-guerrero/TFG-GII-Memoria).
+
+
+## Licencia
+Este proyecto se divulga desde su origen bajo licencia **Apache License 2.0**, por lo que tanto el trabajo del presente autor como de los anteriores debe ser reconocido en sucesivas reutilizaciones del proyecto en caso de no ser modificado. Se puede consultar más información en el fichero [`LICENSE`](LICENSE).
+
+---
+
 # VSCode4Teaching
 
 [![Travis CI build status](https://img.shields.io/travis/com/codeurjc-students/2019-VSCode4Teaching?label=Travis%20CI&style=flat-square)](https://app.travis-ci.com/github/codeurjc-students/2019-VSCode4Teaching)
